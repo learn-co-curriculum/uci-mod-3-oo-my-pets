@@ -1,10 +1,10 @@
 # My Pets
 
-## Objective
+## Learning Goals
 
-1.  Gain a deeper understanding of object relations.
-2.  Build classes that produce objects that interact with one another through
-    associations and behavior.
+-  Gain a deeper understanding of object relations.
+-  Build classes that produce objects that interact with one another through
+associations and behavior.
 
 ## Instructions
 
@@ -33,8 +33,8 @@ moves to that tiny NYC studio after college).
   initialized with an `@pets` variable, set equal to the following hash:
   `{fishes: [], cats: [], dogs: []}`
 
-- An owner should be able to buy and sell pets, and therefore alter the `@pets`
-  hash. You will therefore need a setter and a getter method (`attr_accessor`)
+- An owner should be able to buy and sell pets and therefore alter the `@pets`
+  hash. You will, therefore, need a setter and a getter method (`attr_accessor`)
   for `pets`.
 
 - When an owner buys a new pet, the `buy_cat/buy_dog/buy_fish` methods take in an
@@ -46,17 +46,15 @@ moves to that tiny NYC studio after college).
     array-value of the `@pets` hash stored in the `pets` `attr_accessor`.
 
 - When an owner plays with a cat or feeds a fish or walks a dog, that pet will
-  get happier. Remember that the `pets` method stores all of an owners pets. The
+  get happier. Remember that the `pets` method stores all of an owner's pets. The
   `@pets` hash stored in that method is full of _instances of the
   `Cat`/`Dog`/`Fish` class_. That means you can call `Cat`/`Dog`/`Fish` instance
   methods (such as `.mood=`) on those pets.
 
 These are just a few hints and guidelines to help you through this lab. This lab
 is extensive and challenging. Rely on the guides here, refer to the previous
-Code Along on object relations, and **read the test output and test files**.
+Code Along on object relations and **read the test output and test files**.
 Never forget to ask a question on Learn if you are stuck. And remember, as a
 programmer, your job is to _fix broken code!_ Broken code is the norm, the
 baseline, the starting point for all of the projects you will build. Embrace it!
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/oo-my-pets'>OO My Pets</a> on Learn.co and start learning to code for free.</p>
 
